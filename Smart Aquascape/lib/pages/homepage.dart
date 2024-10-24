@@ -130,11 +130,11 @@ class _HomepageState extends State<Homepage> {
       ),
       body: Container(
         decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("lib/icon/30959.jpg"),
-            fit: BoxFit.cover, // Atur agar gambar menyesuaikan ukuran layar
-          ),
-        ),
+            // image: DecorationImage(
+            //   image: AssetImage("lib/icon/30959.jpg"),
+            //   fit: BoxFit.cover, // Atur agar gambar menyesuaikan ukuran layar
+            // ),
+            ),
         child: SafeArea(
           child: _getCurrentPage(),
         ),
